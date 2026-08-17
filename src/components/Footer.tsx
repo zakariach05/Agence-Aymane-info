@@ -111,7 +111,7 @@ export default function Footer() {
 
           <div className="flex flex-col sm:flex-row justify-center items-center pt-7 gap-4">
             <p className="text-xs text-white/32 text-center">
-             © 2025{" "}
+             © 2026{" "}
             <a href={SITE} className="hover:text-brand-blue transition-colors" >
              InfoAymane
                    </a>{" "}
