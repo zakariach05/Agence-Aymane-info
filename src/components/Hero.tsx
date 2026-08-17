@@ -122,7 +122,7 @@ export default function Hero() {
       </div>
 
       {/* ── Slide dots indicator ── */}
-      <div className="absolute bottom-28 sm:bottom-10 left-1/2 -translate-x-1/2 z-20 flex gap-2">
+      <div className="absolute bottom-8 sm:bottom-10 left-1/2 -translate-x-1/2 z-20 flex gap-2">
         {SLIDESHOW_IMAGES.map((_, i) => (
           <button
             key={i}
