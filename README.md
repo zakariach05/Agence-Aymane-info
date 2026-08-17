@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # InfoAymane - Agence de Marketing Digital
 
 Bienvenue sur le projet web de **InfoAymane**, une agence spécialisée dans le marketing digital, la création de sites web et le design graphique basée au Maroc (Casablanca).
@@ -105,3 +106,7 @@ Le design est centré autour de l'identité visuelle de **InfoAymane** :
 - **Section Services en Accordéon Horizontal** : Une conception visuelle de pointe permettant de voir les détails au survol.
 
 Développé pour l'équipe InfoAymane.
+=======
+# Agence-Aymane-info
+projet web de **InfoAymane**, une agence spécialisée dans le marketing digital, la création de sites web et le design graphique basée au Maroc (Casablanca).
+>>>>>>> ab4d81bb4067732e31f018fbbe85dcbd7ab023fd
