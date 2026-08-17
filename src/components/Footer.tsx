@@ -13,7 +13,7 @@ export default function Footer() {
       <div className="max-w-7xl mx-auto">
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-12 pb-12 border-b border-white/10">
           {/* Brand */}
-          <div>
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
             <Link href="#accueil" className="flex items-center gap-3 mb-4">
               <Image
                 src="/Agence InfoAymane-images/1wyLi4ksWvR6t3BqYfEXK98npkSo74m2jc1XdjQx.webp"
@@ -29,7 +29,7 @@ export default function Footer() {
             <p className="text-sm text-white/50 leading-relaxed max-w-[270px]">
               Agence de marketing digital online au Maroc. Solutions complètes, accessibles et professionnelles pour votre business.
             </p>
-            <div className="flex gap-2.5 mt-5">
+            <div className="flex gap-2.5 mt-5 justify-center sm:justify-start">
               <a
                 href="https://www.facebook.com/InfoAymane"
                 target="_blank"
@@ -61,9 +61,9 @@ export default function Footer() {
           </div>
 
           {/* Services */}
-          <div>
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
             <h4 className="text-xs font-bold uppercase tracking-widest text-white/38 mb-5">Services</h4>
-            <ul className="flex flex-col gap-2.5">
+            <ul className="flex flex-col gap-2.5 items-center sm:items-start">
               {['Design Graphique', 'Social Media', 'Facebook Ads', 'Création Web', 'Cartes de Visite', 'Store E-commerce'].map((s) => (
                 <li key={s}>
                   <Link href="#services" className="text-sm text-white/60 hover:text-brand-blue transition-colors">
@@ -75,9 +75,9 @@ export default function Footer() {
           </div>
 
           {/* Navigation */}
-          <div>
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
             <h4 className="text-xs font-bold uppercase tracking-widest text-white/38 mb-5">Navigation</h4>
-            <ul className="flex flex-col gap-2.5">
+            <ul className="flex flex-col gap-2.5 items-center sm:items-start">
               <li><Link href="#accueil" className="text-sm text-white/60 hover:text-brand-blue transition-colors">Accueil</Link></li>
               <li><Link href="#services" className="text-sm text-white/60 hover:text-brand-blue transition-colors">Nos Services</Link></li>
               <li><Link href="#processus" className="text-sm text-white/60 hover:text-brand-blue transition-colors">Comment ça marche</Link></li>
@@ -87,9 +87,9 @@ export default function Footer() {
           </div>
 
           {/* Contact */}
-          <div>
+          <div className="flex flex-col items-center text-center sm:items-start sm:text-left">
             <h4 className="text-xs font-bold uppercase tracking-widest text-white/38 mb-5">Contact</h4>
-            <div className="flex flex-col gap-3">
+            <div className="flex flex-col gap-3 items-center sm:items-start">
               <a href={`tel:${PHONE}`} className="flex items-center gap-2.5 text-sm text-white/60 hover:text-brand-blue transition-colors">
                 <Phone className="w-4 h-4 shrink-0" /> {PHONE}
               </a>

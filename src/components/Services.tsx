@@ -34,13 +34,6 @@ const SERVICES = [
     price: 'À partir de 149 MAD',
     wa: WHATSAPP_BASE + encodeURIComponent("Bonjour InfoAymane!\n\nJe suis intéressé(e) par le Design Graphique.\nPouvez-vous me donner plus d'informations ? Merci !"),
   },
-  {
-    num: '05',
-    title: 'Pack Digital Illimité',
-    desc: 'La solution complète : Store Web Pro + Landing Page + Vidéo Ads + Posts Pro + 2 services offerts en cadeau. Tout pour lancer ou booster votre business.',
-    price: 'À partir de 1 999 MAD',
-    wa: WHATSAPP_BASE + encodeURIComponent("Bonjour InfoAymane!\n\nJe suis intéressé(e) par le Pack Digital Illimité.\nPouvez-vous me donner plus d'informations ? Merci !"),
-  },
 ];
 
 export default function Services() {
